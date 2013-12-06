@@ -1,0 +1,32 @@
+set t_Co=256
+set background=dark
+" NerdTree shortcut
+map <C-n> :NERDTreeToggle<CR>
+
+" Map F5 to run ruby scripts in insert and normal mode
+:imap <F5> <ESC> :!ruby % <CR>
+:nmap <F5> <ESC> :!ruby % <CR>
+
+map <F8> :setlocal spell! spelllang=en_us<CR>
+map <F9> :setlocal spell! spelllang=el_GR<CR>
+
+set hlsearch      " highlight search results
+set undolevels=100  " Use more levels of undo
+" Trailing Whitespace
+set listchars=tab:>\ ,trail:•,extends:>,precedes:<,nbsp:+
+set list
+nmap <silent> <F6> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
+colorscheme Monokai
+" Auto read when a file is changed on disk
+set autoread
+
+" Autowrap text to 80 chars for certain filetypes
+autocmd BufRead,BufNewFile *.md setlocal textwidth=80
+autocmd BufRead,BufNewFile *.txt setlocal textwidth=80
+autocmd FileType gitcommit setlocal textwidth=80
+
+" Turn on spell check for certain filetypes automatically
+autocmd BufRead,BufNewFile *.md setlocal spell spelllang=en_us
+autocmd BufRead,BufNewFile *.txt setlocal spell spelllang=en_us
+autocmd FileType gitcommit setlocal spell spelllang=en_us

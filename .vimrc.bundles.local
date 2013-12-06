@@ -1,0 +1,15 @@
+"Personal selection of plugins
+Bundle 'https://github.com/ap/vim-css-color.git'
+Bundle 'https://github.com/klen/python-mode.git'
+Bundle 'majutsushi/tagbar.git'
+Bundle 'godlygeek/tabular.git'
+Bundle 'othree/html5.vim.git'
+Bundle 'bling/vim-airline'
+Bundle "https://github.com/kana/vim-textobj-user.git"
+Bundle "https://github.com/nelstrom/vim-textobj-rubyblock.git"
+Bundle "https://github.com/scrooloose/nerdtree.git"
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+Bundle "honza/vim-snippets"
+Bundle 'flazz/vim-colorschemes'

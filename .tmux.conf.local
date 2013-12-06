@@ -1,0 +1,14 @@
+# Sane scrolling
+set -g terminal-overrides 'xterm*:smcup@:rmcup@'
+
+# Scroll with mouse wheel
+set -g mode-mouse on
+
+# pane border
+set-option -g pane-border-fg white #base2
+set-option -g pane-active-border-fg blue #base1
+
+# Windows are medium gray; current window is white
+# set-window-option -g window-status-fg colour244
+# set-window-option -g window-status-current-fg '#ffffff'
+# set-window-option -g window-status-current-bg '#000000'
