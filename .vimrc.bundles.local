@@ -14,3 +14,9 @@ Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 Bundle "honza/vim-snippets"
 Bundle 'flazz/vim-colorschemes'
+
+"Clojure related plugins
+Bundle 'https://github.com/guns/vim-clojure-static.git'
+Bundle 'https://github.com/kien/rainbow_parentheses.vim.git'
+Bundle 'https://github.com/guns/vim-clojure-highlight.git'
+Bundle 'https://github.com/tpope/vim-fireplace.git'
